@@ -17,7 +17,7 @@
 
   <body style="background-color: #0b2447; color: aliceblue">
     <header style="background-color: #1f1f21; border-radius: 5px">
-      <h1 style="padding-left: 20px">Gun Store</h1>
+      <h1 style="padding-left: 20px">TechTrek</h1>
       <nav>
         <ul>
           <li><a href="P9.html">Home</a></li>
@@ -43,7 +43,7 @@
           return false;
         }
       }
-     
+
       function phonevalidation(input) {
         var letters = /^[0-9]{10}$/;
 
@@ -69,11 +69,26 @@
       }
     </script>
     <h1 align="center">Account Register</h1>
-    <div class="container w-50" >
-    <form name="Register"   style="padding: 100px; border-radius: 15px; background-color: #174889;box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;">
-      
-      <label for="email" ><b>Email:</b></label>
-      <input type="email" placeholder="Enter Email" name="email" id="email" required/>
+    <div class="container w-50">
+      <form
+        name="Register"
+        style="
+          padding: 100px;
+          border-radius: 15px;
+          background-color: #174889;
+          box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+            rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+            rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        "
+      >
+        <label for="email"><b>Email:</b></label>
+        <input
+          type="email"
+          placeholder="Enter Email"
+          name="email"
+          id="email"
+          required
+        />
 
         <label for="pno"><b>Phone number:</b></label>
         <input
@@ -110,95 +125,102 @@
           name="bdate"
           required
         />
-    
-        <br>
-        <br>
-        <br>
-        <br>
-        <input type="submit" class="button" onclick="storeData()">
-    </form>
-</div>
-    <div class="">
-        <footer class="text-center text-lg-start text-dark" style="background-color: #19376D;  color: white;">
-       
 
-            
-    
-          </section>
-    
-          <section class="" style="color: white;">
-            <div class="container text-center text-md-start mt-5" >
-    
-              <div class="row mt-3">
-    
-    
-                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4" >
-    
-                  <h6 class="text-uppercase fw-bold" style="padding-top: 30px;">Products</h6>
-                  <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                    style="width: 60px; background-color: #7c4dff; height: 2px" />
-                  <p>
-                    <a href="#!" class="text-light" >HANDGUNS</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-light">SHOTGUNS</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-light">RIFLES</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-light">AIR RIFLES</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-light"></a>
-                  </p>
-                </div>
-          
-                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
-               
-                  <h6 class="text-uppercase fw-bold" style="padding-top: 30px;">Useful links</h6>
-                  <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                    style="width: 60px; background-color: #7c4dff; height: 2px" />
-                  <p>
-                    <a href="#!" class="text-light">Your Account</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-light">Get Franchise</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-light">Shipping Rates</a>
-                  </p>
-                  <p>
-                    <a href="#!" class="text-light">Help</a>
-                  </p>
-                </div>
-                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                  
-                  <h6 class="text-uppercase fw-bold" style="padding-top: 30px;">Contact</h6>
-                  <hr class="mb-4 mt-0 d-inline-block mx-auto"
-                    style="width: 60px; background-color: #7c4dff; height: 2px" />
-                  <p><i class="fas fa-home mr-3"></i> Ahmedabad, Gujarat, India, 380052</p>
-                  <p><i class="fas fa-envelope mr-3"></i> 21BCE049@nirmauni.ac.in</p>
-                  <p><i class="fas fa-phone mr-3"></i> +91 9173706507</p>
-                </div>
-    
+        <br />
+        <br />
+        <br />
+        <br />
+        <input type="submit" class="button" onclick="storeData()" />
+      </form>
+    </div>
+    <div class="">
+      <footer
+        class="text-center text-lg-start text-dark"
+        style="background-color: #19376d; color: white"
+      >
+        <section class="" style="color: white">
+          <div class="container text-center text-md-start mt-5">
+            <div class="row mt-3">
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold" style="padding-top: 30px">
+                  Products
+                </h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <a href="#!" class="text-light">Laptops</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light"> Desktops</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light">Gaming Accessories</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light">Tablets</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light"></a>
+                </p>
               </div>
-    
+
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <h6 class="text-uppercase fw-bold" style="padding-top: 30px">
+                  Useful links
+                </h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <a href="#!" class="text-light">Your Account</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light">Get Franchise</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light">Shipping Rates</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-light">Help</a>
+                </p>
+              </div>
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <h6 class="text-uppercase fw-bold" style="padding-top: 30px">
+                  Contact
+                </h6>
+                <hr
+                  class="mb-4 mt-0 d-inline-block mx-auto"
+                  style="width: 60px; background-color: #7c4dff; height: 2px"
+                />
+                <p>
+                  <i class="fas fa-home mr-3"></i> Ahmedabad, Gujarat, India,
+                  380052
+                </p>
+                <p>
+                  <i class="fas fa-envelope mr-3"></i> 21BCE049@nirmauni.ac.in
+                </p>
+                <p><i class="fas fa-phone mr-3"></i> +91 9173706507</p>
+              </div>
             </div>
-          </section>
-    
-          <div class="text-center p-3 text-light" style="background-color: rgba(255, 255, 255, 0.2)" >
-            © 2023 Copyright:
-            <a class="text-light" href="">Gunstore.com</a>
           </div>
-        </footer>
+        </section>
+
+        <div
+          class="text-center p-3 text-light"
+          style="background-color: rgba(255, 255, 255, 0.2)"
+        >
+          © 2023 Copyright:
+          <a
+            class="text-light"
+            href="https://github.com/Dev22603/E-Commerce-Site"
+            >TechTrek.com</a
+          >
+        </div>
+      </footer>
     </div>
     <script src="reg.js"></script>
   </body>
 </html>
-
-
-
-
-
-
